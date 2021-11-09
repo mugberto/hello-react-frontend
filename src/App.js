@@ -9,14 +9,14 @@ import Greeting from './components/Gretting';
 function App() {
   return (
     <Provider store={store}>
-        <BrowserRouter>
+      <BrowserRouter>
         <Link to="/greeting">Click me</Link>
         <Routes>
           <Route path="/greeting" element={<Greeting />} />
         </Routes>
       </BrowserRouter>
     </Provider>
-  
+
   );
 }
 

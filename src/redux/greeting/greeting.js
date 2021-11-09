@@ -1,24 +1,23 @@
 const GREET = 'GREET';
 
-const greetingReducer = (state={}, action) => {
-  switch(action.type) {
+const greetingReducer = (state = {}, action) => {
+  switch (action.type) {
     case GREET:
       return { message: action.payload };
     default:
       return state;
-      break;
   }
 };
 
-const greetAction =(payload) => ({
+const greet = (payload) => ({
   type: GREET,
-  payload
+  payload,
 });
 
 export const fetchGreeting = () => (dispatch) => {
-  fetch('http://localhost:5000/v1/random-message')
-    .then(json(response))
-    .then(dispatch(json.message))
-}
+  fetch('http://localhost:8000/v1/random-message')
+    .then((response) => response.json())
+    .then((json) => dispatch(greet(json.message)));
+};
 
 export default greetingReducer;
