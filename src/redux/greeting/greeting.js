@@ -15,7 +15,7 @@ const greet = (payload) => ({
 });
 
 export const fetchGreeting = () => (dispatch) => {
-  fetch('http://localhost:8000/v1/random-message')
+  fetch('http://localhost:3000/v1/random-message')
     .then((response) => response.json())
     .then((json) => dispatch(greet(json.message)));
 };
