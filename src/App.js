@@ -1,12 +1,15 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import {
+  BrowserRouter, Routes, Route, Link,
+} from 'react-router-dom';
+import Greeting from './components/Gretting';
 
 function App() {
   return (
     <BrowserRouter>
-      <Link to='/greeting'>Click me</Link>
+      <Link to="/greeting">Click me</Link>
       <Routes>
-        <Route path='/greeting' element={<Greeting />} />
+        <Route path="/greeting" element={<Greeting />} />
       </Routes>
     </BrowserRouter>
   );
