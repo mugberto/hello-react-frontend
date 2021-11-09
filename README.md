@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Hello React Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The repo contains a react backend app that consumes the [Hello Rails Backend API](https://github.com/mugberto/hello-rails-backend/tree/feature/hello-rails-backend) by clicking on the *click me* link that directs to a page that contains a random greeting message.
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- ReactJS/Redux
 
-### `yarn start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Since this is frontend app that consumes an API, we need to run the API first.
+Head over to the [Hello Rails Backend API](https://github.com/mugberto/hello-rails-backend/tree/feature/hello-rails-backend) repo. Follow the step in the **Getting Started** section of the Readme to get the API running.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Follow this steps to get this frondend app running on local machine:
 
-### `yarn test`
+- Clone this repo <https://github.com/mugberto/hello-react-frontend>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/mugberto/hello-react-frontend.git
+    ```
+- Navigate to hello-rails-react folder/directory
+    ```bash
+    cd hello-react-frontend
+    ```
+- Next, install dependencies of the react app.
+    ```bash
+    npm install
+    ```
+- Lastly, start the dev server
+    ```bash
+    npm start
+    ```
 
-### `yarn build`
+- Open [http://localhost:3009](http://localhost:3009) to view it in the browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions, issues, and feature requests are welcome!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to check the [issues page](https://github.com/mugberto/hello-react-frontend/issues)
 
-### `yarn eject`
+  1. Fork the Project
+  2. Create your Feature Branch (`git checkout -b feature/newFeature`)
+  3. Commit your Changes (`git commit -m 'Add some newFeature'`)
+  4. Push to the Branch (`git push -u origin feature/newFeature`)
+  5. Open a Pull Request
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Authors
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👤 **Hubert Mugabo**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- GitHub: [@githubhandle](https://github.com/mugberto)
+- Twitter: [@twitterhandle](https://twitter.com/mugberto)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hubert-mugabo/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Acknowledgements
 
-## Learn More
+- Microverse Team
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
